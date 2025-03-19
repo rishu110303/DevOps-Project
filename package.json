@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "\"DevOps Project by Sonal\"",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+ "scripts": {
+  "lint": "eslint ."
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
