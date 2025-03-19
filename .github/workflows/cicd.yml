@@ -16,8 +16,9 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: Lint Code
-        run: npx --no-install eslint .
+      - name: Run ESLint
+        run: npx eslint .
+
 
       - name: Run Tests
         run: npm test
